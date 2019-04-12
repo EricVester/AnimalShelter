@@ -17,7 +17,7 @@ public String getAnimal(){
     String atype = t1.get(0);
     a1.remove(0);
     t1.remove(0);
-return aname + "is a "+ atype;
+return "name: "+ aname + "; type: "+ atype;
 }
 
 public String getAnimal(String type){
